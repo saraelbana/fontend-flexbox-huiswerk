@@ -1,1 +1,27 @@
 /*Schrijf hier jouw CSS*/
+
+.opdracht-1{
+    height: 120px;
+}
+.opdracht-1 > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.opdracht-2{
+    height: 200px;
+}
+.opdracht-2 > ul{
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.opdracht-2-li{
+    flex: 1;
+}
+
+
