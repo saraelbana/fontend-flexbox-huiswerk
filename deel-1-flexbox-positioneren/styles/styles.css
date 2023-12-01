@@ -66,3 +66,24 @@
 }
 
 /********** Opdracht 5 **********/
+
+.opdracht-5{
+    height: 200px;
+}
+.opdracht-5 > div{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.opdracht-5-ul2{
+    align-items: center;
+}
+.opdracht-5-ul3{
+    align-items: flex-end;
+}
