@@ -1,5 +1,7 @@
 /*Schrijf hier jouw CSS*/
 
+/********** Opdracht 1 **********/
+
 .opdracht-1{
     height: 120px;
 }
@@ -10,6 +12,9 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/********** Opdracht 2 **********/
+
 .opdracht-2{
     height: 200px;
 }
@@ -23,6 +28,8 @@
 .opdracht-2-li{
     flex: 1;
 }
+
+/********** Opdracht 3 **********/
 
 .opdracht3-ul{
     height: 100%;
@@ -44,3 +51,18 @@
     justify-self: flex-end;
     align-self: flex-end;
 }
+
+/********** Opdracht 4 **********/
+
+.opdracht-4{
+    height: 200px;
+}
+
+.opdracht-4 > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/********** Opdracht 5 **********/
