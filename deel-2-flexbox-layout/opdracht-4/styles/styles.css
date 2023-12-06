@@ -1,1 +1,47 @@
 /*Schrijf hier jouw CSS*/
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Also nav*/
+.outer-col-1{
+    width: 20%;
+    height: 100%;
+}
+
+header, footer{
+    height: 20%;
+}
+
+.outer-col-2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.inner-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+}
+.inner-col{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+article{
+    overflow: auto;
+    height: 80%;
+}
+aside{
+    width: 40%;
+}
