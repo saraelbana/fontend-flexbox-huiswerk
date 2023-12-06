@@ -1,1 +1,17 @@
 /*Schrijf hier jouw CSS*/
+*{
+}
+header, footer{
+    height:100px;
+}
+main{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+article{
+    flex-grow: 3;
+}
+nav, aside{
+    flex-grow: 1;
+}
