@@ -1,1 +1,33 @@
 /*Schrijf hier jouw css*/
+*{
+    box-sizing: border-box;
+    background-color: #F2F3D9;
+}
+/*
+Colors
+color: #C16E70
+color: #F2F3D9
+ */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+h1,h3{
+    text-align: center;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+}
+.paragraph{
+}
+p{
+   text-align: center;
+    width: 280px;
+    height: 350px;
+    background-color: #C16E70;
+}
