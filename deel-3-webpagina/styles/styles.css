@@ -2,11 +2,13 @@
 *{
     box-sizing: border-box;
     background-color: #F2F3D9;
+    color: #020425;
 }
 /*
 Colors
 color: #C16E70
 color: #F2F3D9
+#020425
  */
 
 body{
@@ -24,10 +26,14 @@ article{
     justify-content: space-around;
 }
 .paragraph{
-}
-p{
-   text-align: center;
     width: 280px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: #C16E70;
+}
+p{
+    background-color: #C16E70;
+    text-align: center;
 }
