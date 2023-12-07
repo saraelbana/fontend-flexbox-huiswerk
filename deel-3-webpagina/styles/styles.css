@@ -3,6 +3,8 @@
     box-sizing: border-box;
     background-color: #F2F3D9;
     color: #020425;
+    padding: 0;
+    margin: 0;
 }
 /*
 Colors
@@ -17,6 +19,28 @@ body{
     display: flex;
     flex-direction: column;
     align-content: center;
+
+}
+header{
+    height: 10%;
+    width: 100%;
+    background-color: #020425;;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+button{
+    padding-left: 40px;
+}
+button,nav{
+    border: 0;
+    background-color: #020425;
+    color: white;
+}
+nav{
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
 }
 h1,h3{
     text-align: center;
@@ -24,6 +48,7 @@ h1,h3{
 article{
     display: flex;
     justify-content: space-around;
+    flex-grow: 1;
 }
 .paragraph{
     width: 280px;
@@ -32,8 +57,11 @@ article{
     flex-direction: column;
     justify-content: flex-end;
     background-color: #C16E70;
+    margin: 10px;
 }
 p{
+    justify-content: space-around;
     background-color: #C16E70;
     text-align: center;
+    flex-wrap: wrap;
 }
